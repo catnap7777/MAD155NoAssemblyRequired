@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MAD155NoAssemblyRequired</string>
+
+
+    <string name="txtTitle">Assemble\-It\-Quick</string>
+    <string name="btnAssemble">Tools Required</string>
+    <string name="imgTools">Image of Random Tools</string>
+    <string name="imgDesc1">Item to Assemble Image - IKEA Dresser</string>
+    <string name="imgDesc2">Item to Assemble Image - Bicycle</string>
+    <string name="imgDesc3">Item to Assemble Image - Wood Patio</string>
+    <string name="txtItemTitle">Item to Assemble</string>
+    <string name="txtSelectionDirections">Select the project to build from the dropdown list
+        and then hit \"Tools Required\" button to display tools necessary for project</string>
+
+
+    <string-array name="spnItemToBuild">
+        <item>IKEA Dresser</item>
+        <item>Bicycle</item>
+        <item>Wood Patio</item>
+    </string-array>
+
+    <string name="title_activity_dresser">Tools Required to build an IKEA Dresser</string>
+    <string name="title_activity_bike">Tools Required to build a Bicycle</string>
+    <string name="title_activity_patio">Tools Required to build a Wood Patio</string>
+
+    <string-array name="dresser_list">
+        <item>Level</item>
+        <item>Screwdriver</item>
+        <item>Hammer</item>
+        <item>Rubber Mallet</item>
+        <item>Pliers</item>
+        <item>Wrench</item>
+    </string-array>
+
+    <string-array name="bike_list">
+        <item>Wrench</item>
+        <item>Screwdriver</item>
+        <item>Hammer</item>
+        <item>Pliers</item>
+    </string-array>
+
+    <string-array name="patio_list">
+        <item>Saw</item>
+        <item>Nailgun/Nails</item>
+        <item>Level</item>
+        <item>Measuring Tape</item>
+        <item>Screwdriver/Screws</item>
+        <item>Hammer</item>
+        <item>Pliers</item>
+        <item>Work Gloves</item>
+        <item>Post Hole Digger and/or Shovel</item>
+    </string-array>
+
+
+</resources>

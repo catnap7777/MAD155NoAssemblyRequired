@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 "IKEA Dresser",
                 "Wood Patio"
         };
+
         // Set up ArrayList
         final List<String> projectList = new ArrayList<>(Arrays.asList(projects));
 
@@ -122,8 +123,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (selectedProject.isEmpty()) {
-                    System.out.println("SELECTED PROJECT IS NULL");
+                if (selectedProject.isEmpty() || selectedProject == null ) {
+                    System.out.println("SELECTED PROJECT IS EMPTY OR NULL");
                 } else {
 
                     // Put out a toast message if user didn't select anything and hit button
